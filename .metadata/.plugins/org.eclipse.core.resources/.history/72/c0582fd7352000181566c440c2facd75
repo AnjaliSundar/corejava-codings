@@ -1,0 +1,19 @@
+package pack;
+
+import java.util.Scanner;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class TestCrud {
+	public static void main(String[] args) {
+		System.out.println("Doing Update operations by passing id at runtime");
+		Scanner sc=new Scanner(System.in);
+		SessionFactory sf= HibernateUtility.getFactory();
+		Session sf
+		
+		
+		
+	}
+
+}
